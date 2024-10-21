@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdio.h>
+/*#include <stdio.h>*/
 /*Convierte una letra mayúscula en su minúscula, sino la devuelve sin cambios*/
 /*Usa los valores "ASCII" sumando 32 para convertirla en minúscula*/
 
@@ -20,7 +20,7 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
-
+/*
 int	main(void)
 {
 	char	c;
@@ -35,4 +35,4 @@ int	main(void)
 	printf("Resultado de convertir '%c' en minuscula es: '%c'\n", c, resultc);
 	printf("Resultado de convertir '%c' en minuscula es: '%c'\n", d, resultd);
 	return (0);
-}
+}*/

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdio.h>
+/*#include <stdio.h>*/
 /*Convierte una letra minúscula en su mayuscula, sino la devuelve sin cambios*/
 /*Utiliza  los valores "ASCII" restando 32 a la letra para hacerla mayuscula*/
 int	ft_toupper(int c)

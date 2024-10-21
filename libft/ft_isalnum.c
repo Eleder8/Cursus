@@ -6,7 +6,7 @@
 /*   By: eloizaga <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 10:52:37 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/09/25 11:28:04 by eloizaga         ###   ########.fr       */
+/*   Updated: 2024/10/21 08:48:04 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -19,7 +19,7 @@ int	ft_isalnum(int c)
 	return (ft_isalpha(c)
 		|| ft_isdigit(c));
 }
-
+/*
 int	main(void)
 {
 	char	test1;
@@ -33,4 +33,4 @@ int	main(void)
 	printf("test2: %d\n", ft_isalnum(test2));
 	printf("test3: %d\n", ft_isalnum(test3));
 	return (0);
-}
+}*/

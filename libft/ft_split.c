@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
 /*Toma un string de texto 's' y lo divide en varias palabras usando un */
 /*carácter delimitador 'c'(como un espacio ' ').Devuelve un array de strings*/
 /*donde cada elemento es una de esas palabras*/

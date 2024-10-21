@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Pone a 0 un bloque de memoria (los primeros 'n' bytes)*/
 /*"void *s" es un  puntero al bloque de memoria que se quiere llenar con 0*/

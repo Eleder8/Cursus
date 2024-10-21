@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <unistd.h>
 /*Se usa para escribir un string de caracteres 's' en un descriptor "fd" */
 /*Si 's' tiene algo que escribir (no es "NULL") y "fd" es valido (0 o mayor)*/
 /*usa "write" para enviar 's' a "fd" que indica donde se enviará */

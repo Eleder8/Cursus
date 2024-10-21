@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Coge un string de texto "s1" existente y crea una copia en una ubicación */
 /*diferente de la memoria*/

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <unistd.h>
+/*#include <unistd.h>*/
 /*Se usa para escribir un string de texto 's' seguido de "\n" en un descriptor*/
 /*de archivo "fd"*/
 /*Verifica si 's' no es "NULL" y que "fd" sea 0 o mayor*/
@@ -25,7 +25,7 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, "\n", 1);
 	}
 }
-
+/*
 int	main(void)
 {
 	char	*s;
@@ -34,4 +34,4 @@ int	main(void)
 	ft_putendl_fd(s, 1);
 	ft_putstr_fd("Comprobación del salto de linea de ft_putendl_fd\n", 1);
 	return (0);
-}
+}*/

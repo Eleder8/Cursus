@@ -6,12 +6,11 @@
 /*   By: eloizaga <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 10:54:17 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/10/07 09:14:37 by eloizaga         ###   ########.fr       */
+/*   Updated: 2024/10/21 11:40:46 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
+#include <limits.h>
 /*#include <stdio.h>*/
 /*Reserva memoria para un bloque de datos asegurandose que se incialice a 0*/
 /*"ptr" es un puntero que apuntará a la memoria que se reservará con "malloc"*/
@@ -23,6 +22,10 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
+	if (count != 0 && size > SIZE_MAX / count)
+		return (NULL);
+	if ((int)count < 0 && (int)size < 0)
+		return (NULL);
 	ptr = malloc(count * size);
 	if (ptr == NULL)
 		return (NULL);

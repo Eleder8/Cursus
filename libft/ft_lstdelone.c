@@ -6,11 +6,11 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 10:36:36 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/10/17 09:36:57 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/21 12:20:22 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
+/*#include <stdlib.h>*/
 /*#include <stdio.h>*/
 /*"Elimina y libera un solo nodo de una lista enlazada" utiliza una funcion*/
 /* para liberar el contenido del nodo*/
@@ -21,7 +21,7 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	if (lst && del)
+	if (lst != NULL && del != NULL)
 	{
 		del(lst->content);
 		free(lst);

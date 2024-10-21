@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Compara los primeros 'n' bytes de los bloques de memoria a los que */
 /*apuntan "s1 y s2".Convierte los punteros "s1 y s2" a "unsigned char *" para*/

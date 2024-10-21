@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Compara los strings "s1 y s2" hasta un Nº máximo de carácteres 'n'*/
 /*Para saber si son iguales o uno es mayor o menor mediante el valor "ASCII"*/

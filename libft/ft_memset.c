@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*LLena un bloque de memoria con un valor específico*/
 /* 'b' es el puntero al bloque de memoria que se quiere llenar*/

@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Busca un caracter 'c' en los primeros 'n' bytes de un bloque de*/
 /*memoria apuntada por el puntero 's'*/

@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <limits.h>
+/*#include <limits.h>*/
 /*#include <stdio.h>*/
 /*Convierte un número entero "int" en un string de carácteres "char *"*/
 /*"itoa = integer to ASCII"*/

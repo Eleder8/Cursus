@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <unistd.h>
-#include <limits.h>
 /*Se usa para imprimir un Nº entero "int" en un descriptor de archivo "fd"*/
 /*Puede manejar Nº negativos y el Nº entero mas pequeño "INT_MIN"*/
 /*Esta funcion es "recursiva" ya que se llama a si misma para imprimir cada */

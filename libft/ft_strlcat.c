@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Combina "src" al final de "dst" asegurando que termine en '\0'*/
 /*Y que no sobrepase el tamaño total de "dst" especificado por "dstsize"*/

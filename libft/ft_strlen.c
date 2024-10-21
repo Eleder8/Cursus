@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Calcula los carácteres que hay en un string 's' hasta encontrar el '\0'*/
 /*Inicia un contador (len) en 0 para contar los carácteres*/

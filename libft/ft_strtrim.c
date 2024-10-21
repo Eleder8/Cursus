@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*include <stdlib.h>*/
 /*#include <stdio.h>*/
 /*Toma un string "s1" y elimina los carácteres de "set" desde el principio*/

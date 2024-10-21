@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Busca un substring "needle" dentro de otro string "haystack" en los primeros*/
 /*"len" carácteres de "haystack".Si lo encuentra, imprime el fragmento de*/

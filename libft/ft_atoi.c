@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdio.h>
+/*#include <stdio.h>*/
 /* Toma un "string de texto" y lo convierte en número entero "int", también*/
 /*ignora carácteres que no sean números y se centra en dígitos y signo (+ o -)*/
 /*"sign" variable que se usa para saber si el número es '+'(1) o '-'(-1)*/
@@ -47,7 +47,7 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
+/*
 int	main(void)
 {
 	const char	str1[] = "  -1234";
@@ -58,4 +58,4 @@ int	main(void)
 	printf("Convierte el string '%s' en: %d\n", str2, ft_atoi(str2));
 	printf("Convierte el string '%s' en: %d\n", str3, ft_atoi(str3));
 	return (0);
-}
+}*/

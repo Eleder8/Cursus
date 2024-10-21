@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <unistd.h>
+/*#include <unistd.h>*/
 /*Se usa para escribir un solo caracter 'c' en un descriptor de archivo "fd"*/
 /*Es útil para enviar caracteres a diferentes salidas dependiendo de "fd"*/
 
@@ -19,7 +19,7 @@ void	ft_putchar_fd(char c, int fd)
 	if (fd >= 0)
 		write(fd, &c, 1);
 }
-
+/*
 int	main(void)
 {
 	char	c;
@@ -28,4 +28,4 @@ int	main(void)
 	ft_putchar_fd(c, 1);
 	ft_putchar_fd('\n', 1);
 	return (0);
-}
+}*/

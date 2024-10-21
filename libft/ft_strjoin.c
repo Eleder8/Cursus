@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Toma dos strings "s1 y s2" los une y devuelve un string nuevo juntando ambos*/
 /*"len1 y len2" almacenan la longitud de ambos strings*/

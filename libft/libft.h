@@ -6,7 +6,7 @@
 /*   By: eloizaga <eloizaga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 13:06:44 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/10/09 15:30:16 by eloizaga         ###   ########.fr       */
+/*   Updated: 2024/10/21 09:35:46 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
+# include <stdint.h>
 
 typedef struct s_list
 {

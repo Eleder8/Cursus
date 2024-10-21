@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Copia "len" bytes desde "src" a "dst"*/
 /*Si se solapan copia los datos del final al principio para no sobreescriturar*/

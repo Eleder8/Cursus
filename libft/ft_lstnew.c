@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
 /*#include <stdio.h>*/
 /*Crea un nuevo "nodo" de una lista enlazada (el "nodo" se compone de 2 cosas*/
 /*"datos(content)" que es lo que queremos guardar en el "nodo" y tambien */

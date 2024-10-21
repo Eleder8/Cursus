@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Copia "src" a "dst" con un tamaño maximo de "dstsize" debe acabar en '\0'*/
 /*El bucle while copia caracteres de "src a dst" mientras los haya*/

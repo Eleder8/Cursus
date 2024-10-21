@@ -6,11 +6,10 @@
 /*   By: eloizaga <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 08:54:48 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/09/30 09:05:37 by eloizaga         ###   ########.fr       */
+/*   Updated: 2024/10/21 11:35:57 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Copia 'n' bytes desde una la "*src" al destino "*dst"*/
 /*Revisa si los punteros "src y dst" son NULL para evitar errores*/
@@ -18,10 +17,12 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	unsigned int	i;
+	size_t	i;
 
-	if (src == NULL || dst == NULL)
+	if (!dst && !src)
 		return (NULL);
+	if (n == 0 || dst == src)
+		return (dst);
 	i = 0;
 	while (i < n)
 	{

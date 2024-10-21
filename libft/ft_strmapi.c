@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*Crea un nuevo string aplicando la función 'f' a cada carácter del string 's'*/
 /*pasándole la posición del carácter y el carácter en si como argumentos (así */

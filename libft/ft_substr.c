@@ -6,12 +6,10 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 14:02:41 by eloizaga          #+#    #+#             */
-/*   Updated: 2024/10/15 15:17:56 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/21 12:06:30 by eloizaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdlib.h>
-#include <stddef.h>
 /*#include <stdio.h>*/
 /*toma un trozo de una string y lo devuelve como uno nuevo.*/
 /*Usa "ft_strlen" así calcula cuantos carácteres tiene el string original 's'*/
@@ -34,9 +32,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	slen = ft_strlen(s);
-	finish = 0;
-	if (start < slen)
-		finish = slen - start;
+	if (start >= slen)
+		return (ft_strdup(""));
+	finish = slen - start;
 	if (finish > len)
 		finish = len;
 	substr = (char *)malloc(sizeof(char) * (finish +1));
@@ -54,7 +52,7 @@ int	main(void)
 	size_t			len;
 
 	str = "Hola, mundo";
-	start = 5;
+	start = 6;
 	len = 5;
 	substr = ft_substr(str, start, len);
 	if (substr)
